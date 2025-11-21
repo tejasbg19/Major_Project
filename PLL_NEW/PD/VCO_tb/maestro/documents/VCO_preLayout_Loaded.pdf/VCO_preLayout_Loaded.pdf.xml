@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetMainDoc.xsl"?>
+<ROOT enableCpkPerc="disEnable" fnameprefix="VCO_preLayout_Loaded.pdf" parasiticsRunMode="None" dsUserName="vlsi" dsCreationDateTime="17 Nov 2025 15:03:35" viewMode="explorer" name="ExplorerRun.0" runMode="Single Run, Sweeps and Corners" dsAuthorName="vlsi">
+    <SETUPSUMMARY lib="PD" cell="VCO_tb" view="maestro"/>
+    <SCHDIAGRAMS exportPath="/home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro/documents/VCO_preLayout_Loaded.pdf/"/>
+    <CORNERS/>
+    <VARS/>
+    <MODELGROUPS/>
+    <TESTS>
+        <TEST lib="PD" simultor="spectre" state="ExplorerRun.0" cell="VCO_tb" view="schematic">PD_VCO_tb_1</TEST>
+    </TESTS>
+    <RESULTSSUMMARY>
+        <RSITEM maxVal="4.85G" expName="frequency(VT(&quot;/vout&quot;))" minVal="4.808G" test="PD_VCO_tb_1" expType="expr" resultName="frequency(VT(&quot;/vout&quot;))"/>
+        <RSITEM maxVal="101M" expName="frequency(VT(&quot;/f_div_out&quot;))" minVal="100.2M" test="PD_VCO_tb_1" expType="expr" resultName="frequency(VT(&quot;/f_div_out&quot;))"/>
+    </RESULTSSUMMARY>
+    <TESTDOCS>
+        <TESTDOC testName="PD_VCO_tb_1" testFileName="PD_VCO_tb_1"/>
+    </TESTDOCS>
+</ROOT>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="datasheetTestDoc.xsl"?>
+<ROOT enableCpkPerc="disEnable" parasiticsRunMode="None" dsUserName="vlsi" mainfnameprefix="ExplorerRun.0" dsCreationDateTime="17 Nov 2025 15:04:13" name="PD_VCO_tb_1" runMode="Single Run, Sweeps and Corners" dsAuthorName="vlsi">
+    <RESULTSSUMMARY>
+        <RSITEM maxVal="4.85G" expName="frequency(VT(&quot;/vout&quot;))" minVal="4.808G" test="PD_VCO_tb_1" expType="expr" resultName="frequency(VT(&quot;/vout&quot;))"/>
+        <RSITEM maxVal="101M" expName="frequency(VT(&quot;/f_div_out&quot;))" minVal="100.2M" test="PD_VCO_tb_1" expType="expr" resultName="frequency(VT(&quot;/f_div_out&quot;))"/>
+    </RESULTSSUMMARY>
+    <CORNERSPECS/>
+    <WAVEFORMS>
+        <WAVEFORM test="PD_VCO_tb_1" fileName="dsImg_window_13.1.png" isWaveQuickPlot="false"/>
+        <WAVEFORM test="PD_VCO_tb_1" fileName="dsImg_window_13.2.png" isWaveQuickPlot="false"/>
+    </WAVEFORMS>
+</ROOT>

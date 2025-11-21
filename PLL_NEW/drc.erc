@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'VCO_sch1 layout PD':
+  info: Assign pin label "Res_8k" at (0.4700, 0.7150) to layer `metal1_conn'.
+  info: Assign pin label "Vcntrl" at (0.0800, 3.1800) to layer `metal1_conn'.
+  info: Assign pin label "Res_2k" at (0.6750, 2.9800) to layer `metal1_conn'.
+  info: Assign pin label "Vss" at (4.9400, 0.9600) to layer `metal1_conn'.
+  info: Assign pin label "Vdd" at (4.6850, 4.9850) to layer `metal1_conn'.
+  info: Assign pin label "Vout" at (9.2700, 2.9800) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

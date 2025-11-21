@@ -1,0 +1,36 @@
+# 4
+g45n1svt(MOS): g45n1svt(MOS)
+= D D B
+= G G B
+= S S B
+= B B B
+# 4
+g45p1svt(MOS): g45p1svt(MOS)
+= D D B
+= G G B
+= S S B
+= B B B
+# 22
+VCO_sch1 schematic PD: VCO_sch1 layout PD
+= net6 avC16
+= net5 avC13
+= net18 avC15
+= net2 avC7
+= net7 avC19
+= net11 avC18
+= net3 avC22
+= net14 avC21
+= net4 avC10
+= net13 avC9
+= net10 avC12
+= net16 avC14
+= net15 avC17
+= net8 avC20
+= net17 avC8
+= net9 avC11
+= Vdd Vdd I
+= Vss Vss I
+= Vcntrl Vcntrl I
+= Res_2k Res_2k O
+= Res_8k Res_8k O
+= Vout Vout O

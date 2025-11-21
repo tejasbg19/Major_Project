@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      vlsi
+HostName                       cad13
+ProcessIdentifier              507534
+ProcessCreationTime_UTC        1763634481
+ProcessCreationTime_Readable   Thu Nov 20 15:58:01 2025 IST
+AppIdentifier                  Unknown Application
+OSType                         lnx86
+ReasonForPlacingEditLock       lock for simulation monitor log file
+FilePathUsedToEditLock         /home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job18.log
+TimeEditLocked                 Thu Nov 20 15:58:01 2025 IST

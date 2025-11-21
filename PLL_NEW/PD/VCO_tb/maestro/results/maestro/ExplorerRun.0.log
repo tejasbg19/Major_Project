@@ -1,0 +1,13 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Nov 21 13:23:00 2025 
+Best design point: 1
+Design specs: 
+	PD_VCO_tb_1	corner	Nominal - 
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 15
+Number of simulation errors: 15
+ExplorerRun.0 completed. 
+Current time: Fri Nov 21 13:23:16 2025 
