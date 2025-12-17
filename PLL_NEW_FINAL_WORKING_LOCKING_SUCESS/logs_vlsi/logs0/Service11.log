@@ -1,0 +1,314 @@
+\# Program start time:     UTC 2025.12.03 05:51:40.503
+\# Local time: IST (UTC+05:30) 2025.12.03 11:21:40.503
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cad13 -beanport 11300 -beanbinlog  -beanLogFile /home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/amps_Service11.log -mpssession virtuoso7768 -mpshost cad13 -davinciService DaVinciService_7768_1764738535 -axlSession fnxSession2 -axlServiceIdFlag 11 -uuid df8ac8f2-3154-4c76-8464-1f946cd00bdc -heartbeat /dev/shm/swift-heartbeat.u8uEgLJbVy -log /home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D158AF973FC06BC4D31D2EC7EFC068F4D5CD28F1FFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D0FCC40F433EDD56200001E97 -interactive -offlineExprEval -fenixMode explorer -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	cad13 (x86_64)
+\# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:4721 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        614 MB
+\# Available memory:	     45,373 MB
+\# System memory:	     48,473 MB
+\# Maximum memory size:	     47,979 MB
+\# Max mem available:	     45,493 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,829 MB
+\# Thread usage limits (effective/default):	maxthreads 62573/62573 maxload 28.00/28.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vlsi
+\o Working Directory:	cad13:/home/vlsi/Desktop/PLL_NEW
+\# Process Id:		136467
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso7768, host=cad13). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 136467 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [11:21:40.213833] Configured Lic search path (22.01-s002): 5280@cadence_server
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 136467' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\# [11:21:41.434472] Periodic Lic check successful
+\# [11:21:41.434473] Feature usage summary:
+\o Loading simui.cxt 
+\o [2025-12-03 11:21:41.967 +0530] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "cad13", "processid": 136467, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log"}
+\o [2025-12-03 11:21:42.008 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log", "logFileSize": "4357"}
+\o [2025-12-03 11:21:42.008 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\# Memory report: using         313 MB, process size 2,239 MB at UTC 2025.12.03 05:51:43.010
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 11 is already registered. 
+\o 
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_SETUPDB_DIR/test_states
+\o 	State Name   = ExplorerRun.0
+\o 	Results DB   = /home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\e 	Loading gpdk045/gpdk045_customFilter.il ... *Error* eval: unbound variable - axlRegisterCustomDeviceFilter
+\o failed!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 4.0 (17-June-2014)
+\o 
+\o done!
+\# Memory report: using         417 MB, process size 2,343 MB at UTC 2025.12.03 05:51:44.095
+\o Failed to load gpdk045/libInit.il successfully!
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "400m"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/psf/PD_VCO_tb_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o Initializing the control file using cp:
+\o     cp /home/install/IC618/tools.lnx86/dfII/etc/si/control.spectre /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/psf/PD_VCO_tb_1/netlist/control
+\o Copying Spectre source file 'spectre.inp'
+\o Copying Spectre command file 'spectre.sim'
+\o Begin Incremental Netlisting Dec  3 11:21:44 2025
+\o Loading json.cxt 
+\o End netlisting Dec  3 11:21:44 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   60
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-12-03 11:21:44.343 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o [2025-12-03 11:21:45.345 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log", "logFileSize": "6195"}
+\o [2025-12-03 11:21:45.346 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o Setting var vin = "400m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-12-03 11:21:45.980 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 760.5156 MBytes, peak memory used: 760.5156 MBytes {"hostname": "cad13", "processid": 136467, "testname": "PD_VCO_tb_1", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log"}
+\o [2025-12-03 11:21:45.980 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o [2025-12-03 11:21:45.981 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log", "logFileSize": "10425"}
+\o [2025-12-03 11:21:45.981 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "800m"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/2/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/2/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-12-03 11:21:46.371 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 762.8867 MBytes, peak memory used: 762.8867 MBytes {"hostname": "cad13", "processid": 136467, "testname": "PD_VCO_tb_1", "point": 2, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log"}
+\o [2025-12-03 11:21:46.371 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o [2025-12-03 11:21:46.372 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log", "logFileSize": "11950"}
+\o [2025-12-03 11:21:46.372 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/3/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/3/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-12-03 11:21:46.789 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 762.8867 MBytes, peak memory used: 762.8867 MBytes {"hostname": "cad13", "processid": 136467, "testname": "PD_VCO_tb_1", "point": 3, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log"}
+\o [2025-12-03 11:21:46.789 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o [2025-12-03 11:21:46.790 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log", "logFileSize": "13472"}
+\o [2025-12-03 11:21:46.790 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "1.2"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/4/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/4/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-12-03 11:21:47.138 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 762.8867 MBytes, peak memory used: 762.8867 MBytes {"hostname": "cad13", "processid": 136467, "testname": "PD_VCO_tb_1", "point": 4, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log"}
+\o [2025-12-03 11:21:47.138 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o [2025-12-03 11:21:47.139 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log", "logFileSize": "14996"}
+\o [2025-12-03 11:21:47.139 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "1.5"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/5/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/5/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-12-03 11:21:47.591 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 762.8867 MBytes, peak memory used: 762.8867 MBytes {"hostname": "cad13", "processid": 136467, "testname": "PD_VCO_tb_1", "point": 5, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service11.log"}
+\o [2025-12-03 11:21:47.591 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\# Available memory:         45,364 MB at UTC 2025.12.03 05:51:51.594
+\# Memory report: Maximum memory size now 45,804 MB at UTC 2025.12.03 05:51:51.594
+\# Thread usage report: 34 active threads, active load 1.40 at UTC 2025.12.03 05:51:51.594
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [11:26:50.286840] Cdslmd servers:5280@cadence_server
+\# [11:26:50.286849] Feature usage summary:
+\# Memory report: on exit            440 MB, process size 2,371 MB at UTC 2025.12.03 05:56:50.811
+\# Memory report: peak usage         440 MB, process size 2,371 MB

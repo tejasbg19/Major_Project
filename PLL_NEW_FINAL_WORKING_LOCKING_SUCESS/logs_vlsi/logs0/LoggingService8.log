@@ -1,0 +1,3 @@
+[Logging Service: 8]
+[2025-11-21 14:11:29.252 +0530] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/vlsi/Desktop/PLL_NEW/PD/pll_final/maestro/results/maestro"}
+[2025-11-21 14:11:29.252 +0530] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "cad13", "processid": 813342, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/LoggingService8.log"}

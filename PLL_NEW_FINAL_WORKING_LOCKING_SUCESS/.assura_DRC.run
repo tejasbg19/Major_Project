@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/home/install/ASSURA41/tools.lnx86/assura/bin/assura /home/vlsi/Desktop/PLL_NEW/drc.rsf -cdslib /home/vlsi/Desktop/PLL_NEW/cds.lib -restart -gui
+exit $?

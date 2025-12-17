@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Sat Dec  6 10:47:46 2025 
+Best design point: 1
+Design specs: 
+	PD_VCO_tb_1	corner	Nominal - 
+	Freq_Vout		4.764G
+	Power		113.8u
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 12
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Sat Dec  6 11:22:47 2025 

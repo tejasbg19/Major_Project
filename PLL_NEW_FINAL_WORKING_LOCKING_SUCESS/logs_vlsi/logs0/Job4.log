@@ -1,0 +1,108 @@
+[Simulation Monitor: 4]
+[2025-11-21 15:36:02.525 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor has successfully started up. Trying to set up communication channels to other components ... {"hostname": "cad13", "processid": 1554232, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:36:02.525 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Communication channels have been successfully set up. Start processing events ... {"hostname": "cad13", "processid": 1554232, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:36:02.525 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Considering to start history {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:36:02.526 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - HostInfo:
+Host name (type):	cad13 (x86_64)
+Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022 {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "nodename": "cad13", "domainname": "(none)", "machine": "x86_64", "sysname": "Linux", "release": "4.18.0-425.3.1.el8.x86_64", "version": "#1 SMP Fri Sep 30 11:45:06 EDT 2022"}
+[2025-11-21 15:36:02.526 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - UsageInfo:
+pid=1554232
+totalPhysicalMemory=15.336876GB,Used=12.845493GB,totalVirtualMemory=47.336872GB,Used=12.848690GB
+Cpu: Cores=28, Load average:0.470000,1.070000,1.310000 {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "pid": "1554232", "totalPhysicalMemory": "15.336876", "physicalMemoryUsed": "12.845493", "totalVirtualMemory": "47.336872", "virtualMemoryUsed": "12.848690", "cpuCores": "28", "processes": "2016", "loadAverage1": "0.470000", "loadAverage5": "1.070000", "loadAverage15": "1.310000", "loadAverage1Percent": "0.016786"}
+[2025-11-21 15:36:02.526 +0530] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "Simulation Monitor", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "logFileSize": "2103"}
+[2025-11-21 15:36:02.627 +0530] [EVENT] [cadence.virtuoso.ade.simulationMonitor] - NewPoint {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal", "event": "NewPoint", "EventSource": "spectre", "HistoryName": "ExplorerRun.0", "logFile": "/home/vlsi/simulation/PD/pll_final/maestro/results/maestro/ExplorerRun.0/1/PD_pll_final_1/psf/spectre.out", "logFileSize": "-1"}
+[2025-11-21 15:36:02.636 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulator launched {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "simid": "1"}
+[2025-11-21 15:36:02.637 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:36:02.640 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Started Simulation {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "event": "started", "task": "simulation"}
+[2025-11-21 15:36:03.140 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 152 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.140 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 167 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.140 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during hierarchy flattening.
+    The value 'psf' specified for the 'checklimitdest' option will no longer be supported in future releases. Use 'spectre -h' to see other recommended values for the 'checklimitdest' option. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.140 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 170 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.140 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.141 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] -               nodes 238 {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.141 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during initial setup.
+    APS enabled. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.641 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 173 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.641 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] -    -   (APS) Multi-threading. The recommended number of threads is 1, consider adding +mt=1 on command line. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.641 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    There are 1 IC nodes defined. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.641 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during transient analysis `tran'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+    Initial condition computed for node I1.net1 is in error by 31.5466 uV.
+        Decrease `rforce' to reduce error in computed initial conditions.  However, setting rforce too small may result in convergence difficulties or in the matrix becoming singular. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:03.641 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:08.199 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 24.6485 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I3.I0.I1.PM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:08.700 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 26.1676 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I2.I32.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:08.700 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 26.1686 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I2.I32.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:08.700 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 26.1693 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I2.I32.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:36:16.256 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 63.8966 ns during transient analysis `tran'.
+    Found trapezoidal ringing on node I3.I0.I1.PM0.n1.
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:37.507 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during transient analysis `tran'.
+    Trapezoidal ringing is detected during tran analysis.
+        Please use method=trap for better results and performance. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:38.008 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tran analysis `tran': CPU = 573.262 s (9m  33.3s), elapsed = 574.258 s (9m  34.3s), util. = 99.8%. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:38.008 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 545 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:38.008 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    277 notices suppressed. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:38.009 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    Multithreading is disabled due to the size of the design being too small. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:38.009 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during periodic steady state analysis `pss'.
+    There are 1 IC nodes defined. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:38.009 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre during IC analysis, during periodic steady state analysis `pss'.
+    Bad pivoting is found during DC analysis. Option dc_pivot_check=yes is recommended for possible improvement of convergence.
+    Initial condition computed for node I1.net1 is in error by 31.5466 uV.
+        Decrease `rforce' to reduce error in computed initial conditions.  However, setting rforce too small may result in convergence difficulties or in the matrix becoming singular. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:42.566 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 27.1786 ns during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node I2.I37.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:42.566 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 27.1787 ns during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node I2.I37.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:42.566 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 27.1787 ns during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node I2.I37.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:42.566 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 27.1788 ns during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node I2.I37.NM0.n1. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:45:42.566 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 27.1789 ns during periodic steady state analysis `pss'.
+    Found trapezoidal ringing on node I2.I37.NM0.n1.
+        Further occurrences of this notice will be suppressed. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:36.260 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Total time required for tstab analysis `pss': CPU = 537.957 s (8m  58.0s), elapsed = 538.406 s (8m  58.4s). {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:36.260 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak resident memory used = 545 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.318 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre at time = 3 us during periodic steady state analysis `pss'.
+    Newton iteration fails to converge at time = 3 us step = 98.2558e-21 s.
+        Disaster recovery algorithm is enabled to search for a converged solution. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.818 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPECTRE-16192): No convergence achieved with the minimum time step specified.  Last acceptable solution computed at 3 us. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.818 +0530] [WARN] [cadence.virtuoso.ade.simulationMonitor] -     WARNING (SPECTRE-16881): Detected possible convergence difficulties which might be related to Verilog-A models. Use the command-line option '-ahdllint=warn' to check the Verilog-A modeling issues. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pss' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Notice from spectre.
+    360 notices suppressed. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15024): The pstb analysis was skipped because a PSS analysis must be run first. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pstb' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] -     ERROR (SPCRTRF-15024): The pnoise analysis was skipped because a PSS analysis must be run first. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - Analysis `pnoise' was terminated prematurely due to an error. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time used: CPU = 1.11 ks (18m  35.0s), elapsed = 1.12 ks (18m  36.7s), util. = 99.8%. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Time spent in licensing: elapsed = 17.7 ms. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - Peak memory used = 558 Mbytes. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation started at: 3:36:02 PM, Fri Nov 21, 2025, ended at: 3:54:39 PM, Fri Nov 21, 2025, with elapsed time (wall clock): 1.12 ks (18m  36.7s). {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - spectre completes with 3 errors, 1 warning, and 26 notices. {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.819 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished simulating for one point {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "simid": "1"}
+[2025-11-21 15:54:39.819 +0530] [ERROR] [cadence.virtuoso.ade.simulationMonitor] - While simulating run ExplorerRun.0, point 1, test PD_pll_final_1, received error:
+Simulation Error:
+ The simulator process returned a non-zero exit code, indicating failure.
+The simulator could have crashed or intentionally returned to indicate an error.
+Check the simulator log file for more information.  Common causes:
+1. Simulator may have crashed during exit even after reporting success in log file.
+2. Abrupt automatic simulator termination (e.g., SIGKILL) because the simulator process has
+   exceeded r... {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:54:39.820 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Finished Simulation {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "simid": "1"}
+[2025-11-21 15:54:39.821 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Expression evaluator launched {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:54:44.325 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Point Finished {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:55:33.557 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - get signal Terminated<15> from user:vlsi, which pid:1554230:/home/install/IC618/tools/bin/64bit/cdsServIpc {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log", "signal": "15", "signalName": "Terminated", "which": "/home/install/IC618/tools/bin/64bit/cdsServIpc", "pid": "1554230", "user": "vlsi", "uid": "1000"}
+[2025-11-21 15:55:33.557 +0530] [INFO] [cadence.virtuoso.ade.simulationMonitor] - SimulationMonitor has terminated the spectre process '1554331', reason: 'simulationMonitor is handling signal 15' {"history": "ExplorerRun.0", "point": 1, "testname": "PD_pll_final_1", "cornername": "Nominal"}
+[2025-11-21 15:55:34.057 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Current memory used: 54.3750 MBytes, peak memory used: 54.3750 MBytes {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}
+[2025-11-21 15:55:34.058 +0530] [PROCESS] [cadence.virtuoso.ade.simulationMonitor] - Simulation Monitor process exit. {"hostname": "cad13", "processid": 1554232, "history": "ExplorerRun.0", "testname": "PD_pll_final_1", "cornername": "Nominal", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job4.log"}

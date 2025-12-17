@@ -1,0 +1,36 @@
+*
+*
+*
+*                       LINUX           Mon Nov 17 15:37:59 2025
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  Name           : advgen - Quantus - (64-bit)
+*  Version        : 21.2.2-p045
+*  Build Date     : Fri Sep 23 10:27:37 PDT 2022
+*
+*  HSPICE LIBRARY
+*
+*!LENGTH_UNITS METERS
+*
+*
+*
+*
+.SUBCKT not vdd gnd A B
+*
+*
+*  caps2d version: 10
+*
+*
+*       CAPACITOR CARDS
+*
+*
+C1	vdd	gnd	cmodel	1.25813e-16	$X=0.4865 $Y=0.8315
+C2	A	gnd	cmodel	1.83409e-16	$X=0.2865 $Y=0.563
+C3	B	gnd	cmodel	9.83472e-17	$X=0.8615 $Y=0.559
+*
+*
+.ENDS not
+*

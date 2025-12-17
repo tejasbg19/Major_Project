@@ -1,0 +1,3 @@
+SOFTINCLUDE /home/install/IC618/share/cdssetup/cds.lib
+DEFINE PD /home/vlsi/Desktop/PLL_NEW/PD
+DEFINE avTech /home/install/ASSURA41/tools.lnx86/assura/etc/avtech/avTech

@@ -1,0 +1,25 @@
+#
+# OPTION COMMAND FILE created by Cadence Quantus Extraction Version 21.2.2-p045 from CCL
+#
+input_db -type assura \
+	 -design_cell_name "not layout PD" \
+	 -directory_name "/home/vlsi/Desktop/PLL_NEW" \
+	 -format "DFII" \
+	 -library_definitions_file "/home/vlsi/Desktop/PLL_NEW/cds.lib" \
+	 -run_name "drc"
+log_file \
+	 -file_name "/home/vlsi/Desktop/PLL_NEW/qrc.drc.log"
+output_db -type lvs_extracted_view \
+	 -enable_cellview_check false \
+	 -hierarchical_extracted_views_directory "." \
+	 -view_name "av_extracted"
+output_setup \
+	 -directory_name "/home/vlsi/Desktop/PLL_NEW" \
+	 -temporary_directory_name "drc"
+process_technology \
+	 -technology_corner \
+		"rcx_typical" \
+	 -technology_library_file "/home/install/FOUNDRY/analog/45nm_rev/assura_tech.lib" \
+	 -technology_name "gpdk045_av"
+
+

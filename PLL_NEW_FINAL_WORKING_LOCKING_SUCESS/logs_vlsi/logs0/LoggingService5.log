@@ -1,0 +1,5 @@
+[Logging Service: 5]
+[2025-11-21 13:59:57.907 +0530] [INFO] [cadence.virtuoso.ade.loggingservice] - HistoryRecorderManager init {"dbBasePath": "/home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro/results/maestro"}
+[2025-11-21 13:59:57.907 +0530] [PROCESS] [cadence.virtuoso.ade.loggingservice] - Logging Service has successfully started. Waiting for incoming messages ... {"hostname": "cad13", "processid": 700935, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/LoggingService5.log"}
+[2025-11-21 14:01:14.600 +0530] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}
+[2025-11-21 14:01:14.641 +0530] [ERROR] [cadence.virtuoso.ade.loggingservice] - historySqliteRecorder::insert failed {"reason": "attempt to write a readonly database"}

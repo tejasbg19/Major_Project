@@ -1,0 +1,52 @@
+C g45n1svt(MOS) g45n1svt(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C g45p1svt(MOS) g45p1svt(MOS)
+N D D
+N G G
+N S S
+N B B
+
+C "VCO_sch1 schematic PD" "VCO_sch1 layout PD"
+N net1 avC22
+N net2 avC7
+N net7 avC19
+N net6 avC16
+N net5 avC13
+N net4 avC10
+N Vcntrl Vcntrl
+N Vout Vout
+N Vdd Vdd
+N Vss Vss
+N Res_8k Res_8k
+N Res_2k Res_2k
+I PM12 avD10_7
+I PM13 avD10_11
+I PM33 avD10_6
+I PM32 avD10_4
+I PM31 avD10_2
+I PM30 avD10_13
+I PM28 avD10_3
+I PM27 avD10_1
+I PM26 avD10_12
+I PM25 avD10_10
+I PM29 avD10_5
+I PM1 avD10_9
+I PM0 avD10_8
+I NM12 avD2_7
+I NM11 avD2_8
+I NM10 avD2_9
+I NM9 avD2_6
+I NM14 avD2_13
+I NM7 avD2_2
+I NM15 avD2_4
+I NM5 avD2_11
+I NM4 avD2_5
+I NM3 avD2_3
+I NM2 avD2_1
+I NM1 avD2_12
+I NM0 avD2_10
+

@@ -1,0 +1,11 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'freq_div_48 layout PD':
+  info: Assign pin label "div_in" at (-34.5950, 51.4750) to layer `metal1_conn'.
+  info: Assign pin label "vss" at (-20.6850, 47.5500) to layer `metal1_conn'.
+  info: Assign pin label "vdd" at (-21.7700, 59.3600) to layer `metal1_conn'.
+  info: Assign pin label "div_out" at (17.7350, 51.9900) to layer `metal1_conn'.
+
+***** End of Label Report *****
+

@@ -1,0 +1,576 @@
+*
+*
+*
+*                       LINUX           Fri Nov 21 13:18:59 2025
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  Name           : advgen - Quantus - (64-bit)
+*  Version        : 21.2.2-p045
+*  Build Date     : Fri Sep 23 10:27:37 PDT 2022
+*
+*  HSPICE LIBRARY
+*
+*!LENGTH_UNITS METERS
+*
+*
+*
+
+*
+.SUBCKT VCO_sch1 Vdd Vss Vcntrl Res_2k Res_8k Vout
+*
+*
+*  caps2d version: 10
+*
+*
+*       TRANSISTOR CARDS
+*
+*
+MavD2_1	avC16#7	avC13#4	avC15	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=1.75423e-19 scb=6.02776e-10 sca=0.436453 sb=1.4e-07 sa=1.4e-07
+MavD2_2	Vss#22	avC7#9	avC15#2	Vss#11	nmos1v#20ivpcell#20gpdk045
++ L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=1.76206e-12 scb=1.47456e-06 sca=0.694667 sb=1.4e-07 sa=1.4e-07
+MavD2_3	avC19#7	avC16#4	avC18	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=1.75423e-19 scb=6.02776e-10 sca=0.469391 sb=1.4e-07 sa=1.4e-07
+MavD2_4	Vss#21	avC7#8	avC18#2	Vss#11	nmos1v#20ivpcell#20gpdk045
++ L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=1.76206e-12 scb=1.47456e-06 sca=0.727605 sb=1.4e-07 sa=1.4e-07
+MavD2_5	avC22#10	avC19#4	avC21	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=2.69062e-19 scb=1.05619e-09 sca=0.593208 sb=1.4e-07 sa=1.4e-07
+MavD2_6	Vss#20	avC7	avC21#2	Vss#11	nmos1v#20ivpcell#20gpdk045
++ L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=2.13634e-12 scb=1.61818e-06 sca=0.858652 sb=1.4e-07 sa=1.4e-07
+MavD2_7	Vout#1	avC22#6	Vss#1	Vss#11	nmos1v#20ivpcell#20gpdk045
++ L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=5.21159e-07 scb=0.000602169 sca=2.39426 sb=1.4e-07 sa=1.4e-07
+MavD2_8	Res_2k#15	Vcntrl#1	Res_8k#1	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=2e-06
++ AD=2.8e-13	AS=2.8e-13	PD=4.28e-06	PS=4.28e-06
++ scc=2.19457e-05 scb=0.00300705 sca=4.71159 sb=1.4e-07 sa=1.4e-07
+MavD2_9	avC7#15	avC7#7	Vss#27	Vss#11	nmos1v#20ivpcell#20gpdk045
++ L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=5.60292e-12 scb=2.70273e-06 sca=1.07218 sb=1.4e-07 sa=1.4e-07
+MavD2_10	avC10#7	avC22#5	avC9	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=1.75423e-19 scb=6.03015e-10 sca=0.50238 sb=1.4e-07 sa=1.4e-07
+MavD2_11	Vss#25	avC7#11	avC9#2	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=5.59178e-12 scb=2.56901e-06 sca=0.80671 sb=1.4e-07 sa=1.4e-07
+MavD2_12	avC13#7	avC10#4	avC12	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=1.75423e-19 scb=6.02776e-10 sca=0.451106 sb=1.4e-07 sa=1.4e-07
+MavD2_13	Vss#24	avC7#10	avC12#2	Vss#11
++ nmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=6.7772e-12 scb=2.81749e-06 sca=0.7638 sb=1.4e-07 sa=1.4e-07
+MavD10_1	avC14	Res_2k#10	Vdd#22	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.8e-07
++ AD=2.52e-14	AS=2.52e-14	PD=6.4e-07	PS=6.4e-07
++ scc=8.90318e-07 scb=0.000712705 sca=2.89988 sb=1.4e-07 sa=1.4e-07
+MavD10_2	avC16#8	avC13	avC14#2	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=2.2e-07
++ AD=3.08e-14	AS=3.08e-14	PD=7.2e-07	PS=7.2e-07
++ scc=9.68252e-05 scb=0.00556649 sca=5.83821 sb=1.4e-07 sa=1.4e-07
+MavD10_3	avC17	Res_2k#9	Vdd#21	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.8e-07
++ AD=2.52e-14	AS=2.52e-14	PD=6.4e-07	PS=6.4e-07
++ scc=8.90318e-07 scb=0.000712705 sca=2.92478 sb=1.4e-07 sa=1.4e-07
+MavD10_4	avC19#8	avC16	avC17#2	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=2.2e-07
++ AD=3.08e-14	AS=3.08e-14	PD=7.2e-07	PS=7.2e-07
++ scc=9.68252e-05 scb=0.00556649 sca=5.87107 sb=1.4e-07 sa=1.4e-07
+MavD10_5	avC20	Res_2k#1	Vdd#20	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.8e-07
++ AD=2.52e-14	AS=2.52e-14	PD=6.4e-07	PS=6.4e-07
++ scc=8.90318e-07 scb=0.000712705 sca=3.02431 sb=1.4e-07 sa=1.4e-07
+MavD10_6	avC22#11	avC19	avC20#2	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=2.2e-07
++ AD=3.08e-14	AS=3.08e-14	PD=7.2e-07	PS=7.2e-07
++ scc=9.68252e-05 scb=0.00556649 sca=5.99489 sb=1.4e-07 sa=1.4e-07
+MavD10_7	Vout#2	avC22	Vdd#1	Vdd#2	pmos1v#20ivpcell#20gpdk045
++ L=4.5e-08	W=2.2e-07
++ AD=3.08e-14	AS=3.08e-14	PD=7.2e-07	PS=7.2e-07
++ scc=9.73464e-05 scb=0.00616866 sca=7.79403 sb=1.4e-07 sa=1.4e-07
+MavD10_8	Res_2k#17	Res_2k#8	Vdd#11	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.2e-07
++ AD=1.68e-14	AS=1.68e-14	PD=5.2e-07	PS=5.2e-07
++ scc=6.18325e-05 scb=0.0075213 sca=9.01465 sb=1.4e-07 sa=1.4e-07
+MavD10_9	avC7#13	Res_2k#13	Vdd#18	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.8e-07
++ AD=2.52e-14	AS=2.52e-14	PD=6.4e-07	PS=6.4e-07
++ scc=4.40693e-05 scb=0.00410332 sca=5.37692 sb=1.4e-07 sa=1.4e-07
+MavD10_10	avC8	Res_2k#12	Vdd#24	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.8e-07
++ AD=2.52e-14	AS=2.52e-14	PD=6.4e-07	PS=6.4e-07
++ scc=8.90318e-07 scb=0.000712705 sca=2.98846 sb=1.4e-07 sa=1.4e-07
+MavD10_11	avC10#8	avC22#7	avC8#2	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=2.2e-07
++ AD=3.08e-14	AS=3.08e-14	PD=7.2e-07	PS=7.2e-07
++ scc=9.68252e-05 scb=0.00556649 sca=5.90895 sb=1.4e-07 sa=1.4e-07
+MavD10_12	avC11	Res_2k#11	Vdd#23	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=1.8e-07
++ AD=2.52e-14	AS=2.52e-14	PD=6.4e-07	PS=6.4e-07
++ scc=1.07078e-06 scb=0.000773987 sca=2.97201 sb=1.4e-07 sa=1.4e-07
+MavD10_13	avC13#8	avC10	avC11#2	Vdd#2
++ pmos1v#20ivpcell#20gpdk045	L=4.5e-08	W=2.2e-07
++ AD=3.08e-14	AS=3.08e-14	PD=7.2e-07	PS=7.2e-07
++ scc=9.68252e-05 scb=0.00556649 sca=5.85467 sb=1.4e-07 sa=1.4e-07
+*
+*
+*       RESISTOR AND CAP/DIODE CARDS
+*
+Rk1	Vcntrl	Vcntrl#2	45.204071	$metal1_conn	$W=1e-07
++ $X=0.08 $Y=3.0345
+Rk2	Res_8k#1	Res_8k	5.436817	$metal1_conn	$W=8e-08
++ $X=0.47 $Y=1.655
+Rk3	Res_2k	Res_2k#15	5.603332	$metal1_conn	$W=9e-08
++ $X=0.675 $Y=2.802
+Rk4	Res_2k	Res_2k#14	0.038263	$metal1_conn	$W=1e-07
++ $X=0.675 $Y=2.9955
+Rk5	Res_2k#14	Res_2k#17	62.463406	$metal1_conn
++ $W=9e-08	$X=0.675 $Y=3.4
+Rk6	avC7#13	avC7#12	62.813087	$metal1_conn
++ $W=9e-08	$X=1.755 $Y=3.1225
+Rk7	avC7#12	avC7#15	75.543121	$metal1_conn
++ $W=9e-08	$X=1.755 $Y=2.0675
+Rk8	avC8	avC8#2	124.479881	$metal1_conn	$W=8e-08
++ $X=2.935 $Y=4.0775
+Rk9	avC9	avC9#2	150.581390	$metal1_conn	$W=8e-08
++ $X=2.935 $Y=2.09
+Rk10	avC10#3	avC10#6	45.350529	$metal1_conn
++ $W=1e-07	$X=3.67 $Y=3.0925
+Rk11	avC10#6	avC10#7	75.371689	$metal1_conn
++ $W=9e-08	$X=3.14 $Y=2.815
+Rk12	avC10#6	avC10#8	62.416679	$metal1_conn
++ $W=9e-08	$X=3.14 $Y=3.4075
+Rk13	avC11	avC11#2	124.486259	$metal1_conn	$W=8e-08
++ $X=4.05 $Y=4.0825
+Rk14	avC12	avC12#2	150.587769	$metal1_conn	$W=8e-08
++ $X=4.05 $Y=2.085
+Rk15	avC13#3	avC13#6	45.277191	$metal1_conn
++ $W=1e-07	$X=4.67 $Y=3.0575
+Rk16	avC13#6	avC13#7	75.349365	$metal1_conn
++ $W=9e-08	$X=4.255 $Y=2.7975
+Rk17	avC13#6	avC13#8	62.439938	$metal1_conn
++ $W=8.85e-08	$X=4.255 $Y=3.39
+Rk18	avC14	avC14#2	124.479881	$metal1_conn	$W=8e-08
++ $X=5 $Y=4.0775
+Rk19	avC15	avC15#2	150.543121	$metal1_conn	$W=8e-08
++ $X=5 $Y=2.12
+Rk20	avC16#3	avC16#6	45.277191	$metal1_conn
++ $W=1e-07	$X=5.62 $Y=3.0675
+Rk21	avC16#6	avC16#7	75.355743	$metal1_conn
++ $W=9e-08	$X=5.205 $Y=2.8025
+Rk22	avC16#6	avC16#8	62.432625	$metal1_conn
++ $W=9e-08	$X=5.205 $Y=3.395
+Rk23	avC17	avC17#2	124.479881	$metal1_conn	$W=8e-08
++ $X=6.165 $Y=4.0775
+Rk24	avC18	avC18#2	150.543121	$metal1_conn	$W=8e-08
++ $X=6.165 $Y=2.12
+Rk25	avC19#3	avC19#6	45.395168	$metal1_conn
++ $W=1e-07	$X=6.97 $Y=3.0675
+Rk26	avC19#6	avC19#7	75.355743	$metal1_conn
++ $W=9e-08	$X=6.37 $Y=2.8025
+Rk27	avC19#6	avC19#8	62.432625	$metal1_conn
++ $W=9e-08	$X=6.37 $Y=3.395
+Rk28	avC20	avC20#2	124.479881	$metal1_conn	$W=8e-08
++ $X=7.54 $Y=4.0775
+Rk29	avC21	avC21#2	150.549500	$metal1_conn	$W=8e-08
++ $X=7.54 $Y=2.115
+Rk30	avC22#3	avC22#9	45.169334	$metal1_conn
++ $W=1e-07	$X=7.89 $Y=3.075
+Rk31	avC22#9	avC22#10	75.358932	$metal1_conn
++ $W=9e-08	$X=7.745 $Y=2.805
+Rk32	avC22#9	avC22#11	62.429436	$metal1_conn
++ $W=9e-08	$X=7.745 $Y=3.3975
+Rk33	Vss#1	Vss#2	75.422745	$metal1_conn	$W=8e-08
++ $X=9.065 $Y=2.3525
+Rk34	Vss#2	Vss#3	1.214769	$metal1_conn	$W=1e-07
++ $X=8.705 $Y=1.5775
+Rk35	Vss#3	Vss#4	0.248285	$metal1_conn	$W=1e-07
++ $X=7.8975 $Y=0.96
+Rk36	Vss#4	Vss#5	0.329919	$metal1_conn	$W=1e-07
++ $X=7.5025 $Y=0.96
+Rk37	Vss#5	Vss#6	0.420478	$metal1_conn	$W=1e-07
++ $X=7.0125 $Y=0.96
+Rk38	Vss#6	Vss#7	0.245106	$metal1_conn	$W=1e-07
++ $X=6.48 $Y=0.96
+Rk39	Vss#7	Vss#8	0.339485	$metal1_conn	$W=1e-07
++ $X=6.12 $Y=0.96
+Rk40	Vss#8	Vss#9	0.276992	$metal1_conn	$W=1e-07
++ $X=5.735 $Y=0.96
+Rk41	Vss#9	Vss#10	0.240350	$metal1_conn	$W=1e-07
++ $X=5.315 $Y=0.96
+Rk42	Vss#10	Vss#12	0.089861	$metal1_conn	$W=1.25e-07
++ $X=5.13 $Y=0.96
+Rk43	Vss#12	Vss	0.041222	$metal1_conn	$W=1.25e-07
++ $X=4.953 $Y=0.96
+Rk44	Vss	Vss#13	0.267911	$metal1_conn	$W=1e-07
++ $X=4.7475 $Y=0.96
+Rk45	Vss#13	Vss#14	0.245106	$metal1_conn	$W=1e-07
++ $X=4.365 $Y=0.96
+Rk46	Vss#14	Vss#15	0.329919	$metal1_conn	$W=1e-07
++ $X=4.0125 $Y=0.96
+Rk47	Vss#15	Vss#16	0.267416	$metal1_conn	$W=1e-07
++ $X=3.6025 $Y=0.96
+Rk48	Vss#16	Vss#17	0.197267	$metal1_conn	$W=1e-07
++ $X=3.2525 $Y=0.96
+Rk49	Vss#17	Vss#18	0.374559	$metal1_conn	$W=1e-07
++ $X=2.8625 $Y=0.96
+Rk50	Vss#18	Vss#19	0.626457	$metal1_conn	$W=1e-07
++ $X=2.11 $Y=0.96
+Rk51	Vss#19	Vss#11	6.029029	$metal1_conn	$W=9e-08
++ $X=0.25 $Y=0.535
+Rk52	Vss#2	Vss#11	31.188713	$metal1_conn	$W=1e-07
++ $X=8.705 $Y=2.3375
+Rk53	Vss#3	Vss#11	31.319284	$metal1_conn	$W=1.3e-07
++ $X=8.085 $Y=1.3125
+Rk54	Vss#4	Vss#20	75.462685	$metal1_conn	$W=8e-08
++ $X=7.745 $Y=1.3275
+Rk55	Vss#5	Vss#11	31.966320	$metal1_conn	$W=1e-07
++ $X=7.26 $Y=1.7325
+Rk56	Vss#6	Vss#11	31.188210	$metal1_conn	$W=2.35e-07
++ $X=6.6775 $Y=1.3325
+Rk57	Vss#7	Vss#21	75.515472	$metal1_conn	$W=8e-08
++ $X=6.37 $Y=1.3325
+Rk58	Vss#8	Vss#11	31.966320	$metal1_conn	$W=1e-07
++ $X=5.87 $Y=1.7325
+Rk59	Vss#9	Vss#11	31.188210	$metal1_conn	$W=2.35e-07
++ $X=5.5125 $Y=1.3325
+Rk60	Vss#10	Vss#22	75.505859	$metal1_conn	$W=8e-08
++ $X=5.205 $Y=1.3475
+Rk61	Vss#13	Vss#23	0.169797	$metal1_conn	$W=2.35e-07
++ $X=4.5625 $Y=1.2535
+Rk62	Vss#23	Vss#11	31.528984	$metal1_conn	$W=1e-07
++ $X=4.635 $Y=2.085
+Rk63	Vss#14	Vss#24	75.465874	$metal1_conn	$W=8e-08
++ $X=4.255 $Y=1.2975
+Rk64	Vss#15	Vss#11	31.970348	$metal1_conn	$W=9.5e-08
++ $X=3.77 $Y=1.7325
+Rk65	Vss#16	Vss#11	31.295776	$metal1_conn	$W=1.3e-07
++ $X=3.4 $Y=1.2875
+Rk66	Vss#17	Vss#25	75.465294	$metal1_conn	$W=8e-08
++ $X=3.14 $Y=1.3025
+Rk67	Vss#18	Vss#11	31.966320	$metal1_conn	$W=1e-07
++ $X=2.585 $Y=1.7325
+Rk68	Vss#19	Vss#26	0.074833	$metal1_conn	$W=1e-07
++ $X=1.5925 $Y=0.96
+Rk69	Vss#26	Vss#11	31.629082	$metal1_conn	$W=1e-07
++ $X=1.39 $Y=0.96
+Rk70	Vss#26	Vss#27	75.430801	$metal1_conn	$W=8e-08
++ $X=1.55 $Y=1.3025
+Rk71	Vss#11	Vss#12	15.500000	$metal1_conn	$W=8e-08
++ $X=5.025 $Y=0.96
+Rk72	Vss#11	Vss#23	31.000000	$metal1_conn	$W=8e-08
++ $X=4.5625 $Y=1.635
+Rk73	Vdd#1	Vdd#3	62.067314	$metal1_conn	$W=2.2e-07
++ $X=8.925 $Y=3.72
+Rk74	Vdd#3	Vdd#4	1.242746	$metal1_conn	$W=1.465e-07
++ $X=8.825 $Y=4.3725
+Rk75	Vdd#4	Vdd#5	0.572390	$metal1_conn	$W=1.465e-07
++ $X=6.39 $Y=4.985
+Rk76	Vdd#5	Vdd#6	0.373884	$metal1_conn	$W=1.465e-07
++ $X=5.255 $Y=4.985
+Rk77	Vdd#6	Vdd	0.050108	$metal1_conn	$W=1.465e-07
++ $X=4.7105 $Y=4.985
+Rk78	Vdd	Vdd#7	0.060708	$metal1_conn	$W=1.465e-07
++ $X=4.6445 $Y=4.985
+Rk79	Vdd#7	Vdd#8	0.394924	$metal1_conn	$W=1.465e-07
++ $X=4.0625 $Y=4.985
+Rk80	Vdd#8	Vdd#9	0.462709	$metal1_conn	$W=1.465e-07
++ $X=3.0325 $Y=4.985
+Rk81	Vdd#9	Vdd#10	0.411487	$metal1_conn	$W=1.465e-07
++ $X=1.98 $Y=4.985
+Rk82	Vdd#10	Vdd#12	0.940771	$metal1_conn	$W=1.465e-07
++ $X=0.935 $Y=4.985
+Rk83	Vdd#12	Vdd#2	75.000000	$metal1_conn	$W=2e-07
++ $X=0.4 $Y=3.76
+Rk84	Vdd#4	Vdd#13	0.216336	$metal1_conn	$W=1.385e-07
++ $X=7.0775 $Y=4.72
+Rk85	Vdd#13	Vdd#2	75.384712	$metal1_conn	$W=1.385e-07
++ $X=7.0775 $Y=4.065
+Rk86	Vdd#5	Vdd#14	0.216336	$metal1_conn	$W=1.385e-07
++ $X=5.7025 $Y=4.72
+Rk87	Vdd#14	Vdd#2	75.384712	$metal1_conn	$W=1.385e-07
++ $X=5.7025 $Y=4.065
+Rk88	Vdd#7	Vdd#15	0.216336	$metal1_conn	$W=1.385e-07
++ $X=4.5375 $Y=4.72
+Rk89	Vdd#15	Vdd#2	75.384712	$metal1_conn	$W=1.385e-07
++ $X=4.5375 $Y=4.065
+Rk90	Vdd#8	Vdd#16	0.211913	$metal1_conn	$W=1.385e-07
++ $X=3.5875 $Y=4.725
+Rk91	Vdd#16	Vdd#2	75.389130	$metal1_conn	$W=1.385e-07
++ $X=3.5875 $Y=4.07
+Rk92	Vdd#9	Vdd#17	0.204021	$metal1_conn	$W=1.465e-07
++ $X=2.475 $Y=4.72
+Rk93	Vdd#17	Vdd#2	75.382874	$metal1_conn	$W=1.385e-07
++ $X=2.4725 $Y=4.065
+Rk94	Vdd#10	Vdd#19	0.479737	$metal1_conn	$W=1.465e-07
++ $X=1.485 $Y=4.38
+Rk95	Vdd#19	Vdd#2	75.000000	$metal1_conn	$W=2e-07
++ $X=1.48 $Y=3.755
+Rk96	Vdd#13	Vdd#20	62.086491	$metal1_conn	$W=1.865e-07
++ $X=7.195 $Y=4.435
+Rk97	Vdd#14	Vdd#21	62.086491	$metal1_conn	$W=1.865e-07
++ $X=5.82 $Y=4.435
+Rk98	Vdd#15	Vdd#22	62.086491	$metal1_conn	$W=1.865e-07
++ $X=4.655 $Y=4.435
+Rk99	Vdd#16	Vdd#23	62.086491	$metal1_conn	$W=1.865e-07
++ $X=3.705 $Y=4.445
+Rk100	Vdd#17	Vdd#24	62.086521	$metal1_conn	$W=1.865e-07
++ $X=2.5925 $Y=4.435
+Rk101	Vdd#2	Vdd#3	75.000000	$metal1_conn	$W=1.865e-07
++ $X=8.825 $Y=3.72
+Rk102	Vdd#2	Vdd#6	15.000000	$metal1_conn	$W=1.465e-07
++ $X=4.805 $Y=4.985
+Rk103	Vdd#11	Vdd#12	62.000000	$metal1_conn	$W=1.465e-07
++ $X=0.47 $Y=3.76
+Rk104	Vdd#2	Vdd#13	75.000000	$metal1_conn	$W=1.385e-07
++ $X=7.075 $Y=4.435
+Rk105	Vdd#2	Vdd#14	75.000000	$metal1_conn	$W=1.385e-07
++ $X=5.7 $Y=4.435
+Rk106	Vdd#2	Vdd#15	75.000000	$metal1_conn	$W=1.385e-07
++ $X=4.535 $Y=4.435
+Rk107	Vdd#2	Vdd#16	75.000000	$metal1_conn	$W=1.385e-07
++ $X=3.585 $Y=4.445
+Rk108	Vdd#2	Vdd#17	75.000000	$metal1_conn	$W=1.465e-07
++ $X=2.47 $Y=4.435
+Rk109	Vdd#18	Vdd#19	62.000000	$metal1_conn	$W=1.465e-07
++ $X=1.55 $Y=3.755
+Rk110	Vout	Vout#1	75.303978	$metal1_conn	$W=9e-08
++ $X=9.27 $Y=2.7595
+Rk111	Vout	Vout#2	62.479706	$metal1_conn	$W=9e-08
++ $X=9.27 $Y=3.3355
+Rl1	Vcntrl#1	Vcntrl#2	244.955063	$poly_conn
++ $W=3.9e-08	$X=0.433 $Y=2.8625
+Rl2	avC10	avC10#2	197.310455	$poly_conn	$W=3.9e-08
++ $X=4.1525 $Y=3.363
+Rl3	avC10#2	avC10#3	145.815277	$poly_conn
++ $W=3.9e-08	$X=3.9525 $Y=3.0925
+Rl4	avC10#2	avC10#4	189.618149	$poly_conn
++ $W=3.9e-08	$X=4.1525 $Y=2.8325
+Rl5	avC13	avC13#2	210.771988	$poly_conn	$W=3.9e-08
++ $X=5.1025 $Y=3.3455
+Rl6	avC13#2	avC13#3	126.584488	$poly_conn
++ $W=3.9e-08	$X=4.9275 $Y=3.0575
+Rl7	avC13#2	avC13#4	176.156601	$poly_conn
++ $W=3.9e-08	$X=5.1025 $Y=2.815
+Rl8	avC16	avC16#2	206.925827	$poly_conn	$W=3.9e-08
++ $X=6.2675 $Y=3.3505
+Rl9	avC16#2	avC16#3	209.276810	$poly_conn
++ $W=3.9e-08	$X=5.985 $Y=3.0675
+Rl10	avC16#2	avC16#4	180.002762	$poly_conn
++ $W=3.9e-08	$X=6.2675 $Y=2.82
+Rl11	Res_2k#1	Res_2k#2	611.516357	$poly_conn
++ $W=3.9e-08	$X=6.8605 $Y=4.7675
+Rl12	Res_2k#2	Res_2k#3	444.620911	$poly_conn
++ $W=3.9e-08	$X=5.48 $Y=4.7675
+Rl13	Res_2k#3	Res_2k#4	361.928589	$poly_conn
++ $W=3.9e-08	$X=4.4225 $Y=4.7675
+Rl14	Res_2k#4	Res_2k#5	425.390137	$poly_conn
++ $W=3.9e-08	$X=3.39 $Y=4.7675
+Rl15	Res_2k#5	Res_2k#6	450.390137	$poly_conn
++ $W=3.9e-08	$X=2.2425 $Y=4.7675
+Rl16	Res_2k#6	Res_2k#7	254.236282	$poly_conn
++ $W=3.9e-08	$X=1.3175 $Y=4.7675
+Rl17	Res_2k#7	Res_2k#8	511.516327	$poly_conn
++ $W=3.9e-08	$X=0.7775 $Y=4.7675
+Rl18	Res_2k#2	Res_2k#9	86.219955	$poly_conn
++ $W=3.9e-08	$X=6.0625 $Y=4.635
+Rl19	Res_2k#3	Res_2k#10	86.219955	$poly_conn
++ $W=3.9e-08	$X=4.8975 $Y=4.635
+Rl20	Res_2k#4	Res_2k#11	82.373802	$poly_conn
++ $W=3.9e-08	$X=3.9475 $Y=4.64
+Rl21	Res_2k#5	Res_2k#12	86.219955	$poly_conn
++ $W=3.9e-08	$X=2.8325 $Y=4.635
+Rl22	Res_2k#6	Res_2k#13	347.758423	$poly_conn
++ $W=3.9e-08	$X=1.6525 $Y=4.295
+Rl23	Res_2k#7	Res_2k#14	798.504822	$poly_conn
++ $W=3.9e-08	$X=0.9825 $Y=3.9025
+Rl24	avC19	avC19#2	206.925827	$poly_conn	$W=3.9e-08
++ $X=7.6425 $Y=3.3505
+Rl25	avC19#2	avC19#3	218.892197	$poly_conn
++ $W=3.9e-08	$X=7.3475 $Y=3.0675
+Rl26	avC19#2	avC19#4	180.002762	$poly_conn
++ $W=3.9e-08	$X=7.6425 $Y=2.82
+Rl27	avC7	avC7#2	634.593323	$poly_conn	$W=3.9e-08
++ $X=7.0955 $Y=1.3325
+Rl28	avC7#2	avC7#3	444.620911	$poly_conn	$W=3.9e-08
++ $X=5.685 $Y=1.3325
+Rl29	avC7#3	avC7#4	361.928589	$poly_conn	$W=3.9e-08
++ $X=4.6275 $Y=1.3325
+Rl30	avC7#4	avC7#5	425.390137	$poly_conn	$W=3.9e-08
++ $X=3.595 $Y=1.3325
+Rl31	avC7#5	avC7#6	383.082458	$poly_conn	$W=3.9e-08
++ $X=2.535 $Y=1.3325
+Rl32	avC7#6	avC7#7	232.670212	$poly_conn	$W=3.9e-08
++ $X=1.8425 $Y=1.3325
+Rl33	avC7#2	avC7#8	113.143036	$poly_conn	$W=3.9e-08
++ $X=6.2675 $Y=1.5
+Rl34	avC7#3	avC7#9	113.143036	$poly_conn	$W=3.9e-08
++ $X=5.1025 $Y=1.5
+Rl35	avC7#4	avC7#10	86.219955	$poly_conn	$W=3.9e-08
++ $X=4.1525 $Y=1.465
+Rl36	avC7#5	avC7#11	90.066109	$poly_conn	$W=3.9e-08
++ $X=3.0375 $Y=1.47
+Rl37	avC7#6	avC7#12	564.636597	$poly_conn	$W=3.9e-08
++ $X=2.0325 $Y=1.91
+Rl38	avC22	avC22#2	205.002762	$poly_conn	$W=3.9e-08
++ $X=9.1675 $Y=3.353
+Rl39	avC22#2	avC22#3	414.298950	$poly_conn
++ $W=3.9e-08	$X=8.615 $Y=3.0725
+Rl40	avC22#3	avC22#4	3239.907227	$poly_conn
++ $W=3.9e-08	$X=8.0225 $Y=2.5575
+Rl41	avC22#4	avC22#5	197.310455	$poly_conn
++ $W=3.9e-08	$X=3.0375 $Y=2.8425
+Rl42	avC22#2	avC22#6	191.541229	$poly_conn
++ $W=3.9e-08	$X=9.1675 $Y=2.81
+Rl43	avC22#4	avC22#7	189.618149	$poly_conn
++ $W=3.9e-08	$X=3.0375 $Y=3.3725
+*
+*       CAPACITOR CARDS
+*
+*
+C1	Vss	Vdd	cmodel	1.24711e-17	$X=4.7495 $Y=3.5715
+C2	Vcntrl	Vdd	cmodel	2.23228e-17	$X=2.539 $Y=4.118
+C3	Res_2k	Vdd	cmodel	1.51862e-17	$X=2.908 $Y=4.062
+C4	Res_8k	Vdd	cmodel	3.28404e-16	$X=4.3805 $Y=4.7495
+C5	Vout	Vdd	cmodel	4.31293e-17	$X=5.637 $Y=4.5795
+C6	avC22	Vdd	cmodel	4.87178e-17	$X=5.843 $Y=4.6355
+C7	avC21	Vdd	cmodel	6.62044e-17	$X=5.1545 $Y=4.561
+C8	avC20	Vdd	cmodel	5.49866e-17	$X=5.103 $Y=4.8925
+C9	avC19	Vdd	cmodel	4.53423e-17	$X=5.4445 $Y=4.636
+C10	avC18	Vdd	cmodel	6.62298e-17	$X=4.927 $Y=4.559
+C11	avC17	Vdd	cmodel	5.24979e-17	$X=4.898 $Y=4.8925
+C12	avC16	Vdd	cmodel	3.73996e-17	$X=5.0885 $Y=4.636
+C13	avC15	Vdd	cmodel	6.41811e-17	$X=4.732 $Y=4.559
+C14	avC14	Vdd	cmodel	5.35624e-17	$X=4.7245 $Y=4.8925
+C15	avC13	Vdd	cmodel	4.47708e-17	$X=4.7865 $Y=4.638
+C16	avC12	Vdd	cmodel	7.51781e-17	$X=4.577 $Y=4.5735
+C17	avC11	Vdd	cmodel	5.76419e-17	$X=4.5835 $Y=4.894
+C18	avC10	Vdd	cmodel	3.61527e-17	$X=4.539 $Y=4.632
+C19	avC9	Vdd	cmodel	6.63567e-17	$X=4.3955 $Y=4.5715
+C20	avC8	Vdd	cmodel	5.27978e-17	$X=4.417 $Y=4.8925
+C21	avC7	Vdd	cmodel	1.09878e-16	$X=5.149 $Y=4.443
+C22	Res_2k#1	Vdd	cmodel	9.73194e-17	$X=5.0595 $Y=4.9505
+C23	Res_2k#9	Vdd	cmodel	2.61121e-17	$X=5.15 $Y=4.798
+C24	Res_2k#10	Vdd	cmodel	2.44661e-17	$X=4.752 $Y=4.798
+C25	Res_2k#11	Vdd	cmodel	2.67896e-17	$X=4.4255 $Y=4.799
+C26	avC22#7	Vdd	cmodel	4.60823e-17	$X=4.2405 $Y=4.629
+C27	Res_2k#12	Vdd	cmodel	2.71795e-17	$X=4.047 $Y=4.798
+C28	Res_2k#13	Vdd	cmodel	5.64751e-17	$X=4.021 $Y=4.7555
+C29	Res_2k#8	Vdd	cmodel	5.68055e-17	$X=3.8995 $Y=4.804
+C30	avC22#6	Vdd	cmodel	4.27457e-17	$X=6.048 $Y=4.25
+C31	avC19#4	Vdd	cmodel	3.39489e-17	$X=5.6035 $Y=4.2385
+C32	avC16#4	Vdd	cmodel	2.81481e-17	$X=5.174 $Y=4.2385
+C33	avC7#8	Vdd	cmodel	3.56251e-17	$X=5.244 $Y=3.807
+C34	avC13#4	Vdd	cmodel	3.68731e-17	$X=4.811 $Y=4.2315
+C35	avC7#9	Vdd	cmodel	3.56684e-17	$X=4.8285 $Y=3.807
+C36	avC10#4	Vdd	cmodel	3.12788e-17	$X=4.516 $Y=4.2545
+C37	avC7#10	Vdd	cmodel	2.83845e-17	$X=4.4775 $Y=3.7095
+C38	avC22#5	Vdd	cmodel	3.22352e-17	$X=4.182 $Y=4.2665
+C39	avC7#11	Vdd	cmodel	3.22351e-17	$X=4.0595 $Y=3.724
+C40	avC7#7	Vdd	cmodel	3.79709e-17	$X=3.861 $Y=4.06
+C41	Vcntrl#1	Vdd	cmodel	1.33107e-16	$X=4.364 $Y=4.735
+C42	avC22#3	Vdd	cmodel	4.58155e-16	$X=4.8 $Y=4.905
+C43	avC19#3	Vdd	cmodel	6.03582e-17	$X=5.053 $Y=4.6765
+C44	avC16#3	Vdd	cmodel	5.47814e-17	$X=4.859 $Y=4.639
+C45	avC13#3	Vdd	cmodel	5.25779e-17	$X=4.67 $Y=4.6
+C46	avC10#3	Vdd	cmodel	5.54373e-17	$X=4.487 $Y=4.6415
+C47	avC7#12	Vdd	cmodel	1.53152e-16	$X=4.453 $Y=4.7915
+C48	Res_2k#14	Vdd	cmodel	1.04068e-16	$X=4.2835 $Y=4.7965
+C49	Vcntrl#2	Vdd	cmodel	6.68532e-17	$X=3.831 $Y=4.5895
+C50	Vss#11	Vdd	cmodel	1.05529e-15	$X=4.6775 $Y=4.9825
+C51	Vout#2	Vdd	cmodel	5.70709e-17	$X=5.277 $Y=4.81
+C52	Vout#1	Vdd	cmodel	4.27635e-17	$X=5.616 $Y=4.4875
+C53	Vss#1	Vdd	cmodel	4.04742e-17	$X=5.4535 $Y=4.534
+C54	avC22#10	Vdd	cmodel	3.31611e-17	$X=5.287 $Y=4.507
+C55	Vss#20	Vdd	cmodel	3.11307e-17	$X=5.218 $Y=4.39
+C56	avC21#2	Vdd	cmodel	6.89366e-17	$X=5.154 $Y=4.452
+C57	avC22#11	Vdd	cmodel	5.4924e-17	$X=5.1005 $Y=4.802
+C58	avC20#2	Vdd	cmodel	6.91814e-17	$X=5.061 $Y=4.823
+C59	avC19#7	Vdd	cmodel	3.59075e-17	$X=5.0145 $Y=4.505
+C60	Vss#21	Vdd	cmodel	3.20983e-17	$X=4.9735 $Y=4.395
+C61	avC18#2	Vdd	cmodel	6.72915e-17	$X=4.927 $Y=4.4505
+C62	avC19#8	Vdd	cmodel	4.95381e-17	$X=4.91 $Y=4.8025
+C63	avC17#2	Vdd	cmodel	7.04245e-17	$X=4.877 $Y=4.823
+C64	avC16#7	Vdd	cmodel	3.87474e-17	$X=4.7815 $Y=4.505
+C65	Vss#22	Vdd	cmodel	3.11222e-17	$X=4.7705 $Y=4.385
+C66	avC15#2	Vdd	cmodel	6.48527e-17	$X=4.732 $Y=4.4505
+C67	avC16#8	Vdd	cmodel	5.26231e-17	$X=4.749 $Y=4.8025
+C68	avC14#2	Vdd	cmodel	7.13995e-17	$X=4.721 $Y=4.823
+C69	avC13#7	Vdd	cmodel	4.26075e-17	$X=4.591 $Y=4.5015
+C70	Vss#24	Vdd	cmodel	3.1486e-17	$X=4.599 $Y=4.359
+C71	avC12#2	Vdd	cmodel	7.37309e-17	$X=4.577 $Y=4.4605
+C72	avC13#8	Vdd	cmodel	6.26392e-17	$X=4.6185 $Y=4.803
+C73	avC11#2	Vdd	cmodel	7.39706e-17	$X=4.594 $Y=4.824
+C74	avC10#7	Vdd	cmodel	3.47731e-17	$X=4.374 $Y=4.5135
+C75	Vss#25	Vdd	cmodel	3.21321e-17	$X=4.3965 $Y=4.364
+C76	avC9#2	Vdd	cmodel	6.64603e-17	$X=4.396 $Y=4.459
+C77	avC10#8	Vdd	cmodel	4.95592e-17	$X=4.462 $Y=4.8005
+C78	avC8#2	Vdd	cmodel	7.16465e-17	$X=4.4445 $Y=4.823
+C79	avC7#13	Vdd	cmodel	6.44733e-17	$X=4.334 $Y=4.824
+C80	avC7#15	Vdd	cmodel	4.47516e-17	$X=4.1915 $Y=4.445
+C81	Vss#27	Vdd	cmodel	3.8545e-17	$X=4.1095 $Y=4.364
+C82	Res_2k#15	Vdd	cmodel	2.54689e-16	$X=4.59 $Y=4.9125
+C83	Res_2k#17	Vdd	cmodel	2.79414e-17	$X=3.9635 $Y=4.7525
+C84	avC10#6	Vdd	cmodel	4.54868e-17	$X=4.444 $Y=4.7
+C85	avC13#6	Vdd	cmodel	5.70687e-17	$X=4.609 $Y=4.68
+C86	avC16#6	Vdd	cmodel	5.54438e-17	$X=4.762 $Y=4.6805
+C87	avC19#6	Vdd	cmodel	5.64958e-17	$X=4.9255 $Y=4.7075
+C88	avC22#9	Vdd	cmodel	4.24454e-17	$X=5.22 $Y=4.651
+C89	Vss#2	Vdd	cmodel	7.23805e-17	$X=5.0985 $Y=4.654
+C90	Vss#3	Vdd	cmodel	8.15683e-17	$X=4.959 $Y=4.6805
+C91	Vss#4	Vdd	cmodel	3.80491e-17	$X=5.2045 $Y=4.321
+C92	Vss#5	Vdd	cmodel	7.05532e-17	$X=4.9605 $Y=4.583
+C93	Vss#6	Vdd	cmodel	4.73591e-17	$X=4.8275 $Y=4.695
+C94	Vss#7	Vdd	cmodel	3.47419e-17	$X=4.9785 $Y=4.298
+C95	Vss#8	Vdd	cmodel	5.7646e-17	$X=4.819 $Y=4.5505
+C96	Vss#9	Vdd	cmodel	3.70686e-17	$X=4.7435 $Y=4.678
+C97	Vss#10	Vdd	cmodel	1.99678e-17	$X=4.7815 $Y=4.2195
+C98	Vss#13	Vdd	cmodel	3.22928e-17	$X=4.6665 $Y=4.6205
+C99	Vss#14	Vdd	cmodel	3.24868e-17	$X=4.598 $Y=4.259
+C100	Vss#15	Vdd	cmodel	6.49582e-17	$X=4.5715 $Y=4.5585
+C101	Vss#16	Vdd	cmodel	2.87715e-17	$X=4.5075 $Y=4.47
+C102	Vss#17	Vdd	cmodel	3.7402e-17	$X=4.4035 $Y=4.2955
+C103	Vss#18	Vdd	cmodel	1.07342e-16	$X=4.484 $Y=4.647
+C104	Vss#19	Vdd	cmodel	1.13143e-16	$X=4.4225 $Y=4.622
+C105	Vss#26	Vdd	cmodel	4.23503e-17	$X=4.1895 $Y=4.387
+C106	avC10#2	Vdd	cmodel	4.17886e-17	$X=4.561 $Y=4.566
+C107	avC13#2	Vdd	cmodel	5.25427e-17	$X=4.774 $Y=4.5505
+C108	avC16#2	Vdd	cmodel	4.55895e-17	$X=5 $Y=4.5985
+C109	Res_2k#2	Vdd	cmodel	1.31403e-16	$X=4.892 $Y=4.958
+C110	Res_2k#3	Vdd	cmodel	9.78056e-17	$X=4.7095 $Y=4.944
+C111	Res_2k#4	Vdd	cmodel	1.00449e-16	$X=4.567 $Y=4.9435
+C112	Res_2k#5	Vdd	cmodel	1.09923e-16	$X=4.421 $Y=4.9465
+C113	Res_2k#6	Vdd	cmodel	1.18894e-16	$X=4.289 $Y=4.9275
+C114	Res_2k#7	Vdd	cmodel	1.39504e-16	$X=4.32 $Y=4.9645
+C115	avC19#2	Vdd	cmodel	5.56384e-17	$X=5.272 $Y=4.603
+C116	avC7#2	Vdd	cmodel	1.34311e-16	$X=4.8605 $Y=4.5715
+C117	avC7#3	Vdd	cmodel	9.02067e-17	$X=4.7385 $Y=4.468
+C118	avC7#4	Vdd	cmodel	9.66942e-17	$X=4.598 $Y=4.4425
+C119	avC7#5	Vdd	cmodel	9.99499e-17	$X=4.436 $Y=4.4555
+C120	avC7#6	Vdd	cmodel	9.96301e-17	$X=4.356 $Y=4.5805
+C121	avC22#2	Vdd	cmodel	8.29146e-17	$X=5.3905 $Y=4.682
+C122	avC22#4	Vdd	cmodel	4.10085e-16	$X=4.611 $Y=4.908
+*
+*
+.ENDS VCO_sch1
+*

@@ -1,0 +1,15 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Fri Nov 21 15:35:57 2025 
+Best design point: 1
+Design specs: 
+	PD_pll_final_1	corner	Nominal - 
+	frequency(VT("/Vout"))		4.88G
+	frequency(VT("/Vf"))		101.7M
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 1
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Fri Nov 21 15:54:44 2025 

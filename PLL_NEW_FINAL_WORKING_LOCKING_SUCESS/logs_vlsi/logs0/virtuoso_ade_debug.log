@@ -1,0 +1,84 @@
+[ADE GUI: 7407a905-0393-4f79-99c2-4cce0ade0f2c]
+[2025-12-06 10:15:41.257 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - /home/vlsi/Desktop/PLL_NEW/.tmp_vlsi/.cmddir0/swiftLoggingService0 is starting {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/LoggingService0.log"}
+[2025-12-06 10:15:41.361 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - /home/vlsi/Desktop/PLL_NEW/.tmp_vlsi/.cmddir0/swiftNetlistService1 is starting {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service1.log"}
+[2025-12-06 10:15:41.361 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '10171' is starting up on host 'cad13' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/LoggingService0.log"}
+[2025-12-06 10:15:47.985 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '10235' is starting up on host 'cad13' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service1.log"}
+[2025-12-06 10:16:43.763 +0530] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "ExplorerRun.0", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0", "WorkDir": "/home/vlsi/Desktop/PLL_NEW", "HistorySimDir": "/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0", "HistoryResultsDir": "/home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro/results/maestro"}
+[2025-12-06 10:16:43.763 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "cad13", "processid": 8100, "history": "ExplorerRun.0", "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "PD", "cell": "VCO_tb", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.29 ", "runstart": "Sat Dec  6 10:16:43 2025\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "", "maxjobs": "unknown", "ncjobpolicyname": "", "ncmaxjobs": "unknown", "numtests": "1", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
+[2025-12-06 10:16:44.231 +0530] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "ExplorerRun.0"}
+[2025-12-06 10:16:54.013 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - /home/vlsi/Desktop/PLL_NEW/.tmp_vlsi/.cmddir0/swiftJob2 is starting {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:16:54.121 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Simulation Monitor process '12125' is starting up on host 'cad13' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:19:44.182 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist/exprOutputs.log': File exists
+ {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:19:44.184 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist/amps_evaluator.log': File exists
+ {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:19:44.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 1, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:19:45.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 1, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:21:57.671 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '10235' stopped with exit code '0' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service1.log"}
+[2025-12-06 10:22:35.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 2, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:22:35.392 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 2, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:25:26.393 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 3, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:25:26.393 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 3, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:28:18.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 4, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:28:19.404 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 4, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:31:11.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 5, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:31:11.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 5, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:34:08.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 6, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:34:09.402 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 6, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:35:42.293 +0530] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "ExplorerRun.0", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0"}
+[2025-12-06 10:35:45.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Canceled simulation of points {"history": "ExplorerRun.0", "point": 7, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:36:14.984 +0530] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "ExplorerRun.0", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0", "WorkDir": "/home/vlsi/Desktop/PLL_NEW", "HistorySimDir": "/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0", "HistoryResultsDir": "/home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro/results/maestro"}
+[2025-12-06 10:36:14.984 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "cad13", "processid": 8100, "history": "ExplorerRun.0", "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "PD", "cell": "VCO_tb", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.29 ", "runstart": "Sat Dec  6 10:36:14 2025\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "", "maxjobs": "unknown", "ncjobpolicyname": "", "ncmaxjobs": "unknown", "numtests": "1", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
+[2025-12-06 10:36:15.716 +0530] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "ExplorerRun.0"}
+[2025-12-06 10:36:20.070 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - /home/vlsi/Desktop/PLL_NEW/.tmp_vlsi/.cmddir0/swiftNetlistService3 is starting {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service3.log"}
+[2025-12-06 10:36:20.281 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '25146' is starting up on host 'cad13' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service3.log"}
+[2025-12-06 10:39:20.438 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist/exprOutputs.log': File exists
+ {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:39:20.439 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist/amps_evaluator.log': File exists
+ {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:39:21.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 1, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:39:21.392 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 1, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:41:40.523 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '25146' stopped with exit code '0' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service3.log"}
+[2025-12-06 10:42:11.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 2, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:42:12.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 2, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:45:01.392 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 3, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:45:02.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 3, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:47:41.511 +0530] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "ExplorerRun.0", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0"}
+[2025-12-06 10:47:42.390 +0530] [INFO] [cadence.virtuoso.ade.gui] - Canceled simulation of points {"history": "ExplorerRun.0", "point": 4, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:47:45.974 +0530] [EVENT] [cadence.virtuoso.ade.gui] - NewHistoryCreated {"history": "ExplorerRun.0", "event": "NewHistoryCreated", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0", "WorkDir": "/home/vlsi/Desktop/PLL_NEW", "HistorySimDir": "/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0", "HistoryResultsDir": "/home/vlsi/Desktop/PLL_NEW/PD/VCO_tb/maestro/results/maestro"}
+[2025-12-06 10:47:45.975 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - History Setup {"hostname": "cad13", "processid": 8100, "history": "ExplorerRun.0", "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/virtuoso_ade_debug.log", "jobmode": "LSCS", "runmode": "Single Run, Sweeps and Corners", "lib": "PD", "cell": "VCO_tb", "view": "maestro", "icversion": "sub-version  IC6.1.8-64b.500.29 ", "runstart": "Sat Dec  6 10:47:45 2025\n", "timezonelocal": "+000", "spectreversion": "unknown", "jobpolicyname": "", "maxjobs": "unknown", "ncjobpolicyname": "", "ncmaxjobs": "unknown", "numtests": "1", "runfinished": "unknown", "runelapsed": "-1", "numcorners": "1"}
+[2025-12-06 10:47:46.342 +0530] [INFO] [cadence.virtuoso.ade.pointevaluator] - Submitted {"history": "ExplorerRun.0"}
+[2025-12-06 10:47:51.080 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - /home/vlsi/Desktop/PLL_NEW/.tmp_vlsi/.cmddir0/swiftNetlistService4 is starting {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service4.log"}
+[2025-12-06 10:47:51.183 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '37403' is starting up on host 'cad13' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service4.log"}
+[2025-12-06 10:50:48.421 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist/exprOutputs.log': File exists
+ {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:50:48.438 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - ln: failed to create symbolic link '/home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/ExplorerRun.0/1/PD_VCO_tb_1/netlist/amps_evaluator.log' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:50:48.439 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - : File exists
+ {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Job2.log"}
+[2025-12-06 10:50:49.392 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 1, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:50:49.392 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 1, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:53:08.351 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Netlist Service '37403' stopped with exit code '0' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service4.log"}
+[2025-12-06 10:53:39.390 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 2, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:53:40.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 2, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:56:30.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 3, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:56:30.392 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 3, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:59:20.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 4, "testname": "PD_VCO_tb_1"}
+[2025-12-06 10:59:21.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 4, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:02:11.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 5, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:02:11.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 5, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:05:07.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 6, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:05:07.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 6, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:08:04.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 7, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:08:04.392 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 7, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:10:59.392 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 8, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:11:00.390 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 8, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:14:00.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 9, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:14:00.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 9, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:16:56.392 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 10, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:16:56.392 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 10, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:19:51.391 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 11, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:19:51.391 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 11, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:22:46.392 +0530] [ERROR] [cadence.virtuoso.ade.gui] - Simulator exited abruptly {"history": "ExplorerRun.0", "point": 12, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:22:47.398 +0530] [INFO] [cadence.virtuoso.ade.gui] - Point completed {"history": "ExplorerRun.0", "point": 12, "testname": "PD_VCO_tb_1"}
+[2025-12-06 11:22:47.878 +0530] [EVENT] [cadence.virtuoso.ade.gui] - HistoryFinished {"history": "ExplorerRun.0", "event": "HistoryFinished", "EventSource": "ADE GUI", "HistoryName": "ExplorerRun.0"}
+[2025-12-06 11:29:05.720 +0530] [PROCESS] [cadence.virtuoso.ade.gui] - Logging Service '10171' stopped with exit code '0' {"logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/LoggingService0.log"}

@@ -1,0 +1,1139 @@
+\# Program start time:     UTC 2025.11.03 07:06:26.754
+\# Local time: IST (UTC+05:30) 2025.11.03 12:36:26.754
+\o Program:		@(#)$CDS: virtuoso version 6.1.8-64b 11/15/2022 19:45 (cpgbld01) $
+\o Hierarchy:		/home/install/IC618/tools.lnx86/dfII/
+\o Sub version:		sub-version  IC6.1.8-64b.500.29  (64-bit addresses)
+\# Command line:	/home/install/IC618/tools.lnx86/dfII/bin/64bit/virtuoso -beanhost cad13 -beanport 11300 -beanbinlog  -beanLogFile /home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/amps_Service5.log -mpssession virtuoso16163 -mpshost cad13 -davinciService DaVinciService_16163_1762152500 -axlSession fnxSession0 -axlServiceIdFlag 5 -uuid 03444041-645c-45be-b8a8-667fffe5d384 -heartbeat /dev/shm/swift-heartbeat.tX9MTSQ5od -log /home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log -noautostart -nographE -lscs 000175E1894CBE06FF0966E38F1FFC06BC4D158AF973FC06BC4D31D2EC7EFC068F4D5CD28F1FFC06867C66E38F1FFC06BC4D66E38F1FFC06BC4D0FEBDB6EA877D54500001EB4 -interactive -offlineExprEval -fenixMode assembler -heartbeatTimeout  -lingerTimeout 300 -pointlifetime -1
+\# Host name (type):	cad13 (x86_64)
+\# Operating system:	Linux 4.18.0-425.3.1.el8.x86_64 #1 SMP Fri Sep 30 11:45:06 EDT 2022
+\# Linux /etc/issue:	\S
+\# Linux /etc/issue:	Kernel \r on an \m
+\# X display name (WxH):	:5461 (1024x868)
+\# Available geometry:			TL(0:0) BR(1023:867)
+\# X server:			The X.Org Foundation
+\# Depth of Visual (Root):	24 (24)
+\# Number of Planes Used:	24
+\# X version:		11.0 (vendor release 12011000)
+\# X resource pool:	base 0x400000, mask 0x1fffff (2097151), shift 0
+\# 			current id 0x0, current max 0x1ffffa (2097146)
+\# Max data seg size:	     unlimited
+\# Max process size:	     unlimited
+\# Initial sbrk value:	        623 MB
+\# Available memory:	     44,855 MB
+\# System memory:	     48,473 MB
+\# Maximum memory size:	     47,970 MB
+\# Max mem available:	     44,975 MB
+\# Initial memory used:	        120 MB
+\#        process size:	      1,829 MB
+\# Thread usage limits (effective/default):	maxthreads 62573/62573 maxload 28.00/28.00
+\# Qt version:		5.9.1
+\# Window Manager:	other
+\# User Name:		vlsi
+\o Working Directory:	cad13:/home/vlsi/Desktop/PLL_NEW
+\# Process Id:		39299
+\o 
+\o COPYRIGHT (C) 1992-2022  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
+\o           (C) 1992-2022  UNIX SYSTEMS Laboratories INC.,
+\o                          Reproduced with permission.
+\o 
+\o This Cadence Design Systems program and online documentation are
+\o proprietary/confidential information and may be disclosed/used only
+\o as authorized in a license agreement controlling such use and disclosure.
+\o 
+\o           RESTRICTED RIGHTS NOTICE (SHORT FORM)
+\o Use/reproduction/disclosure is subject to restriction
+\o set forth at FAR 1252.227-19 or its equivalent.
+\o Loading geView.cxt 
+\o Loading menuBuilder.cxt 
+\o Loading schView.cxt 
+\o Loading selectSv.cxt 
+\o Loading pvsui.cxt
+\o Loading wireEdit.cxt 
+\o Loading pte2.cxt 
+\o Loading xlUI.cxt 
+\o Loading auCore.cxt 
+\o Loading vhdl.cxt 
+\o Loading seismic.cxt 
+\o Loading ci.cxt 
+\o Loading ams.cxt 
+\o Loading oasis.cxt 
+\o Loading analog.cxt 
+\o Loading asimenv.cxt 
+\o Loading dal.cxt 
+\o Loading awv.cxt 
+\o Loading socket.cxt 
+\o Loading par.cxt 
+\o Loading alvs.cxt 
+\o Loading caa.cxt 
+\o Loading amps.cxt 
+\o Loading adexlCore.cxt 
+\o Loading adexl.cxt 
+\o *Info*    Exporting services from client ... 
+\o 
+\o Loading adexlDM.cxt 
+\o Loading cpf.cxt 
+\o Loading cli.cxt 
+\o Loading lp.cxt 
+\o INFO (ELI-00302) Connecting to parent process (session=virtuoso16163, host=cad13). Connection mode is LSCS. Total timeout is 180 seconds. Connection timeout is 90 seconds.
+\o INFO (ELI-00303) Step 1: Connecting to parent. Time spent is 0 seconds.
+\o INFO (ELI-00304) The registration of the child 39299 within 90 seconds is being processed...
+\o INFO (ELI-00305) The result of registration is true. Time spent is 0 seconds.
+\o INFO (ELI-00308) The connection has ended. Result is true. Total time spent is 0 seconds.
+\# [12:36:26.213921] Configured Lic search path (22.01-s002): 5280@cadence_server
+\p > 
+\# Loading perfDiag...
+\# (PerfDiag): Set GDB path to environment variable 'gdbPath' (gdb).
+\# Memory report: using         292 MB, process size 2,154 MB at UTC 2025.11.03 07:06:28.068
+\# Performance Diagnostic tool is installed. You can access PerfDiag from CIW Tools or use the shell command 'cdsPerfDiag -p 39299' to open it when Virtuoso freezes.
+\# (PerfDiag): Use backtrace from GLIBC.
+\i _axlRunServices()
+\# [12:36:28.171024] Periodic Lic check successful
+\# [12:36:28.171042] Feature usage summary:
+\o Loading simui.cxt 
+\o [2025-11-03 12:36:28.179 +0530] [PROCESS] [cadence.virtuoso.ade.services] - Netlist Service has successfully started. Waiting for incoming messages ... {"hostname": "cad13", "processid": 39299, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:28.220 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "4448"}
+\o [2025-11-03 12:36:28.220 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o Loading vdsil.cxt 
+\o *Warning* AXL Context Manager : job 5 is already registered. 
+\o 
+\o Loading vqp.cxt 
+\o Loading hdlPkg.cxt 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_PROJECT_DIR/PD/VCO_tb/maestro/test_states
+\o 	State Name   = Interactive.7.RO
+\o 	Results DB   = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/simulation/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o Loading viva.cxt 
+\o Loading gpdk045/libInit.il ...
+\o 	Loading gpdk045/loadCxt.ile ... done!
+\o 	Loading context 'gpdk045' from library 'gpdk045' ... done!
+\o 	Loading context 'pdkUtils' from library 'gpdk045' ... done!
+\e 	Loading gpdk045/gpdk045_customFilter.il ... *Error* eval: unbound variable - axlRegisterCustomDeviceFilter
+\o failed!
+\o 	Loading gpdk045/libInitCustomExit.il ... 
+\o 	Loading Environment Settings ...
+\o 	Loading Model Management File ...
+\o Loading spectrei.cxt 
+\o Loading devCheck.cxt 
+\o Loading relXpert.cxt 
+\o Loading hspiceD.cxt 
+\o Loading spectreinl.cxt 
+\o Loading UltraSim.cxt 
+\o Loading msgHandler.cxt 
+\o Loading AMSOSS.cxt 
+\o Loading AMS.cxt 
+\o 	Loading gpdk045/gpdk045_PDKRegistrations.il ... done!
+\o 
+\o   *************************************************************           
+\o   *              Cadence Design Systems, Inc.                 *           
+\o   *                                                           *           
+\o   *                    Generic 45nm PDK                       *           
+\o   *                        (gpdk045)                          *           
+\o   *                                                           *           
+\o   *************************************************************           
+\o 	
+\o 
+\o 	VERSION: 4.0 (17-June-2014)
+\o 
+\o done!
+\# Memory report: using         415 MB, process size 2,341 MB at UTC 2025.11.03 07:06:30.126
+\o Failed to load gpdk045/libInit.il successfully!
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Loading elec.cxt 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0"
+\o Loading monte.cxt 
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/psf/PD_VCO_tb_1
+\o 
+\o generate netlist...
+\o Loading hnlInit.cxt 
+\o Loading seCore.cxt 
+\o Begin Incremental Netlisting Nov  3 12:36:30 2025
+\o Loading json.cxt 
+\o End netlisting Nov  3 12:36:30 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   26
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:30.446 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:31.449 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "7597"}
+\o [2025-11-03 12:36:31.449 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 5 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_PROJECT_DIR/PD/VCO_tb/maestro/test_states
+\o 	State Name   = Interactive.7.RO
+\o 	Results DB   = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/simulation/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o Setting var vin = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/1/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/1/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:32.182 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:32.183 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:32.184 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "11128"}
+\o [2025-11-03 12:36:32.184 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.11"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/2/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/2/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:32.665 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 2, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:32.665 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:32.665 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "12659"}
+\o [2025-11-03 12:36:32.665 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.22"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/3/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/3/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:33.032 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 3, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:33.032 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:33.032 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "14190"}
+\o [2025-11-03 12:36:33.032 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.33"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/4/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/4/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:33.567 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 4, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:33.567 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:33.567 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "15721"}
+\o [2025-11-03 12:36:33.567 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.44"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/5/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/5/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:33.984 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 5, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:33.984 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:33.985 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "17252"}
+\o [2025-11-03 12:36:33.985 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.55"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/6/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/6/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:34.569 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 6, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:34.570 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:34.570 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "18783"}
+\o [2025-11-03 12:36:34.570 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.66"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/7/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/7/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:34.960 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 7, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:34.961 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:34.961 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "20314"}
+\o [2025-11-03 12:36:34.961 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.77"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/8/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/8/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:35.503 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 8, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:35.504 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:35.504 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "21845"}
+\o [2025-11-03 12:36:35.504 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.88"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/9/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/9/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:35.989 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 9, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:35.990 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:35.991 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "23376"}
+\o [2025-11-03 12:36:35.991 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.99"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/10/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/10/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\# Available memory:         44,839 MB at UTC 2025.11.03 07:06:36.081
+\# Memory report: Maximum memory size now 45,280 MB at UTC 2025.11.03 07:06:36.081
+\# Thread usage report: 34 active threads, active load 1.40 at UTC 2025.11.03 07:06:36.081
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:36.447 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 10, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:36.447 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:36:36.448 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 11, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.7.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "25157"}
+\o [2025-11-03 12:36:36.448 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 11, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/11/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.7.RO/11/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:36:37.031 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 765.5000 MBytes, peak memory used: 765.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 11, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:36:37.032 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 11, "testname": "PD_VCO_tb_1"}
+\o **** stopping dspf2oa stdobj@0x34e42878 1 5
+\o [2025-11-03 12:38:51.129 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "26740"}
+\o [2025-11-03 12:38:51.129 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 5 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_PROJECT_DIR/PD/VCO_tb/maestro/test_states
+\o 	State Name   = Interactive.8.RO
+\o 	Results DB   = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/simulation/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/psf/PD_VCO_tb_1
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  3 12:38:52 2025
+\o End netlisting Nov  3 12:38:52 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   26
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:52.645 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:53.647 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "27060"}
+\o [2025-11-03 12:38:53.648 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 5 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_PROJECT_DIR/PD/VCO_tb/maestro/test_states
+\o 	State Name   = Interactive.8.RO
+\o 	Results DB   = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/simulation/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o Setting var vin = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/1/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/1/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:54.397 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:54.398 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:54.398 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "31554"}
+\o [2025-11-03 12:38:54.398 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.11"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/2/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/2/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:54.872 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 2, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:54.872 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:54.874 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "33085"}
+\o [2025-11-03 12:38:54.874 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.22"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/3/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/3/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:55.455 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 3, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:55.456 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:55.456 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "34616"}
+\o [2025-11-03 12:38:55.457 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.33"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/4/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/4/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:56.400 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 4, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:56.400 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:56.400 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "36147"}
+\o [2025-11-03 12:38:56.400 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.44"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/5/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/5/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:57.142 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 5, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:57.142 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:57.142 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "37678"}
+\o [2025-11-03 12:38:57.142 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.55"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/6/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/6/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:58.069 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 6, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:58.069 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:58.070 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "39209"}
+\o [2025-11-03 12:38:58.070 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.66"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/7/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/7/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:58.727 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 7, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:58.727 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:58.727 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "40740"}
+\o [2025-11-03 12:38:58.728 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.77"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/8/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/8/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:59.291 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 8, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:59.291 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:59.292 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "42271"}
+\o [2025-11-03 12:38:59.292 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.88"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/9/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/9/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:38:59.833 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 9, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:38:59.833 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:38:59.834 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "43802"}
+\o [2025-11-03 12:38:59.834 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.99"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/10/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/10/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:39:00.473 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 10, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:39:00.473 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:39:00.474 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 11, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.8.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "45339"}
+\o [2025-11-03 12:39:00.474 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 11, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/11/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.8.RO/11/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:39:01.181 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 767.5000 MBytes, peak memory used: 767.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 11, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:39:01.181 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 11, "testname": "PD_VCO_tb_1"}
+\o **** stopping dspf2oa stdobj@0x34e42488 1 5
+\o [2025-11-03 12:40:11.346 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 0, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "46922"}
+\o [2025-11-03 12:40:11.346 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 5 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_PROJECT_DIR/PD/VCO_tb/maestro/test_states
+\o 	State Name   = Interactive.9.RO
+\o 	Results DB   = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/simulation/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0"
+\o Reusing AHDL Data dir
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/psf/PD_VCO_tb_1
+\o 
+\o generate netlist...
+\o Begin Incremental Netlisting Nov  3 12:40:12 2025
+\o End netlisting Nov  3 12:40:12 2025
+\o 
+\o Netlisting Statistics:
+\o 	Number of components:   26
+\o 
+\o 	Elapsed time:          0.0s
+\o Errors: 0	Warnings: 0
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:12.818 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished preparing netlist {"point": 0, "testname": "PD_VCO_tb_1", "testnameKey": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:13.820 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 1, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "47242"}
+\o [2025-11-03 12:40:13.820 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\o *Warning* AXL Context Manager : job 5 is already registered. 
+\o 
+\o 
+\o 
+\o *Info*    Configuring the session ...
+\o 
+\o 	Library      = PD
+\o 	Cell         = VCO_tb
+\o 	View         = schematic
+\o 	Simulator    = spectre
+\o 	State Path   = $AXL_PROJECT_DIR/PD/VCO_tb/maestro/test_states
+\o 	State Name   = Interactive.9.RO
+\o 	Results DB   = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO.rdb
+\o 	Results Dir  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/1/PD_VCO_tb_1
+\o 	Results Loc  = /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro
+\o 	Project Dir  = /home/vlsi/simulation
+\o 	Setup DB loc = /home/vlsi/simulation/PD/VCO_tb/maestro
+\o 	File Encoding = 0
+\o 
+\o 
+\o 
+\o *Info*    The auto suspension is disabled.
+\o 
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting temp(T) = 27
+\o Setting var vin = "0"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/1/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/1/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:14.428 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 1, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:14.428 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 1, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:14.429 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 2, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "51736"}
+\o [2025-11-03 12:40:14.429 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.11"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/2/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/2/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:14.904 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 2, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:14.904 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 2, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:14.904 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 3, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "53267"}
+\o [2025-11-03 12:40:14.905 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.22"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/3/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/3/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:15.339 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 3, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:15.340 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 3, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:15.340 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 4, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "54798"}
+\o [2025-11-03 12:40:15.340 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.33"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/4/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/4/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:15.972 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 4, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:15.972 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 4, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:15.973 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 5, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "56329"}
+\o [2025-11-03 12:40:15.973 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.44"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/5/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/5/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:16.423 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 5, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:16.424 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 5, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:16.424 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 6, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "57860"}
+\o [2025-11-03 12:40:16.424 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 6, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.55"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/6/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/6/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:17.016 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 6, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:17.016 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 6, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:17.017 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 7, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "59391"}
+\o [2025-11-03 12:40:17.017 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 7, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.66"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/7/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/7/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:17.483 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 7, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:17.483 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 7, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:17.484 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 8, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "60922"}
+\o [2025-11-03 12:40:17.484 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 8, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.77"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/8/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/8/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:18.010 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 8, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:18.011 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 8, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:18.011 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 9, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "62453"}
+\o [2025-11-03 12:40:18.011 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 9, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.88"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/9/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/9/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:18.377 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 9, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:18.377 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 9, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:18.378 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 10, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "63984"}
+\o [2025-11-03 12:40:18.378 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 10, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "0.99"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/10/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/10/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:18.878 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 10, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:18.879 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 10, "testname": "PD_VCO_tb_1"}
+\o [2025-11-03 12:40:18.879 +0530] [EVENT] [cadence.virtuoso.ade.services.netlister] - NewPoint {"point": 11, "testname": "PD_VCO_tb_1", "event": "NewPoint", "EventSource": "Netlist Service", "HistoryName": "Interactive.9.RO", "logFile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log", "logFileSize": "65521"}
+\o [2025-11-03 12:40:18.880 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Started netlisting {"point": 11, "testname": "PD_VCO_tb_1"}
+\o Resetting statistical vars
+\o 
+\o *Info*    Setting parameter values ...
+\o 
+\o Setting var vin = "1.1"
+\o 
+\o *Info*    Netlist Directory =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/11/PD_VCO_tb_1/netlist
+\o 
+\o 
+\o *Info*    Data Directory    =
+\o           /home/vlsi/simulation/PD/VCO_tb/maestro/results/maestro/Interactive.9.RO/11/PD_VCO_tb_1
+\o 
+\o Reusing AHDL Data dir
+\o generate netlist...
+\o Ignoring netlist creation since ignoreDesignChangesDuringRun is set to true
+\o       ...successful.
+\o compose simulator input file...
+\o       ...successful.
+\o [2025-11-03 12:40:19.228 +0530] [PROCESS] [cadence.virtuoso.ade.services.netlister] - Current memory used: 769.5000 MBytes, peak memory used: 769.5000 MBytes {"hostname": "cad13", "processid": 39299, "testname": "PD_VCO_tb_1", "point": 11, "logfile": "/home/vlsi/Desktop/PLL_NEW/logs_vlsi/logs0/Service5.log"}
+\o [2025-11-03 12:40:19.229 +0530] [INFO] [cadence.virtuoso.ade.services.netlister] - Finished netlisting {"point": 11, "testname": "PD_VCO_tb_1"}
+\o **** stopping dspf2oa stdobj@0x34e42608 1 5
+\o Simulation design variables differ from those on the cellView,
+\o they have been saved in the file "/tmp/saved-design-variables".
+\o To save future changes, copy variables to cellView before exiting.
+\# Lic Summary:
+\# [12:42:01.304752] Cdslmd servers:5280@cadence_server
+\# [12:42:01.304752] Feature usage summary:
+\# Memory report: on exit            444 MB, process size 2,375 MB at UTC 2025.11.03 07:12:01.304
+\# Memory report: peak usage         444 MB, process size 2,375 MB
